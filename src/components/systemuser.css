@@ -1,0 +1,122 @@
+.systemuser{
+    display: flex;
+}
+.systemuser img{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+}
+.systemuser__title{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left:10px;
+}
+.systemuser__name{
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+}
+
+/* table */
+.systemtable {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    border-bottom:1px solid #e3e3e3 ;
+    border-top: 1px solid #e3e3e3;
+  }
+  
+.systemtable td, .systemtable th {
+    padding: 15px;
+ 
+  }
+.systemtable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color:#ffffff;
+    color:#A9A7A7;
+    font-size: 15px;
+    font-weight: normal;
+    margin-left: 10px;
+    margin-left: 15px;
+  }
+.systemtable td{
+    color:#1F1F1F;
+    font-size: 12px;
+    font-weight: normal;    
+  }
+ 
+/* buttons */
+
+.systembuttons{
+    padding: 15px;
+}
+.squarebtn{
+    background: #EDEFF0;
+}
+.squarebtn__unmark{
+    color: #333333;
+    font-size: 12px;
+    background: #EDEFF0;
+    border-style: none;
+    outline-style: none;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+    font-weight: medium; 
+    
+}
+
+.systembuttons__round{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 40px;
+   
+}
+.squarebtn__mark{
+    color: #ffffff;
+    font-size: 12px;
+    background: #43A047;
+    border-style: none;
+    outline-style: none;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+    font-weight: bold; 
+}
+
+
+.roundbtn{
+    border-radius: 25px;
+    background: #EDEFF0;
+}
+.roundbtn__unmark{
+    color: #333333;
+    font-size: 15px;
+    background: #EDEFF0;
+    border-style: none;
+    outline-style: none;
+    width: 100%;
+    height: 40px;
+    cursor: pointer; 
+    border-radius: 25px;
+    font-weight: medium;  
+}
+.roundbtn__mark{
+    color: #ffffff;
+    font-size: 15px;
+    background: #9A55FF;
+    border-style: none;
+    outline-style: none;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 25px;
+    font-weight: bold; 
+}
+
+.systemaccordon{
+    padding: 15px;
+}

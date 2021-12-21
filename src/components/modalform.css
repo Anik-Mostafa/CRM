@@ -1,0 +1,147 @@
+.modal{
+    background-color: #ffffff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1px;
+}
+.modal__nav{
+    background: #ffffff;
+    border-bottom: 1px solid #e3e3e3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.modalclearicon{ 
+    outline-style: none;
+    border-style: none;
+    cursor: pointer;
+    background: transparent;
+}
+
+/* modal form  */
+.modalform{
+    padding: 15px; 
+}
+.modalform__title{
+    padding: 10px;
+    background: #F3F1F1;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+/* input textfield */
+
+.modal__inputname {
+    display: flex;
+    padding-bottom: 10px;
+}
+.modal__inputname h2{
+    font-size:18px;
+    color: red;
+    margin-top: -3px;
+    margin-left: 3px;
+}
+.modal__inputfield{
+    height: 43px;
+    border-radius: 5px;
+    border: 1px solid #e3e3e3;
+    outline-style: none;
+    margin-top: 10px;
+    color: #1f1f1f;
+    font-weight: normal;
+    display: flex;
+    align-items: center;
+}
+.modal__inputfield input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    outline-style: none;
+    border-style:none;
+    color: #1f1f1f;
+    font-weight: normal;
+}
+
+/* selectbutton */
+
+.modal__selectbtn{
+    width: 100%;
+    height: 45px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #e3e3e3;
+    outline-style: none;
+    color: #1f1f1f;
+    font-weight: normal;
+    padding: 10px;
+}
+
+
+/* description */
+
+.modal__description{
+    height: 90px;
+    border-radius: 5px;
+    border: 1px solid #e3e3e3;
+    outline-style: none;
+    margin-top: 10px;
+    color: #1f1f1f;
+    font-weight: normal;
+    display: flex;
+    align-items: center;
+}
+
+.modal__description input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    outline-style: none;
+    border-style:none;
+    color: #1f1f1f;
+    font-weight: normal;
+}
+
+
+/* modalbuttons */
+
+.modalbuttons{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.save__btn{
+    padding: 10px 30px;
+    background: linear-gradient(to right, #da8cff, #9a55ff);
+    border-style: none;
+    outline-style: none;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: medium;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.cancel__btn{
+    padding: 10px 30px;
+    background: #6c757d;
+    border-style: none;
+    outline-style: none;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: medium;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+/* ReportModal */
+
+.reportbuttons{
+    margin-bottom: 15px;
+}
+
+

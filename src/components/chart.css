@@ -1,0 +1,9 @@
+.chart{
+    background:#ffffff;padding:20px;border-radius:10px
+}
+.chart__text{
+    color: #1f1f1f;
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: 500;
+}

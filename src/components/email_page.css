@@ -1,0 +1,59 @@
+
+.checkbox{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+.ratings{
+    flex: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+.inbox{
+    height:40px;
+    width:100%;
+    border-top: #ffffff;
+    border-left: #ffffff;
+    border-right: #ffffff;
+    border-bottom: 1px solid #EDEDED;
+    background: #FFFFFF;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: start;
+    outline-style: none;
+ }
+ .inbox:hover{
+    background: #eee;
+    cursor: pointer;
+ }
+ 
+.inbox__name{
+    flex: 3;
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+  }
+.inbox__description{
+    flex: 10;
+    display: flex;
+    align-items: center;  
+    font-size: 13px;
+  }
+.inbox__attachimg{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+  }
+.inbox__time{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+  }
+
